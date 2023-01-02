@@ -1,20 +1,17 @@
 @import 'config';
 @import 'home';
-@import 'menu';
 body{
     background: $primary-color;
-    color: set-text-color($primary-color);
+    color: #fff;
     height: 100vh;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
 h1,h2,h3{
     font-weight: 400;
 }
-
 a{
-    color: set-text-color($primary-color);
+    color: #fff;
     text-decoration: none;
 }
 header{
@@ -23,31 +20,27 @@ header{
     width: 100%;
     padding: 1rem;
 }
-
 main{
     height: 100%;
     width: 100%;
-
     .social-icons{
         position: fixed;
         bottom: 1rem;
         left: 1rem;
-    }
-    a{
-        padding: 0.4rem;
-        @include transition-ease;
-        &:hover{
-            color: $secondary-color;
+        a{
+            padding: 0.4rem;
+            &:hover{
+                color: $secondary-color;
+            }
         }
     }
 }
-
 footer{
     font-size: 1rem;
     position: fixed;
     bottom: 0.4rem;
     right: 1rem;
     text-align: right;
-    padding: 1rem;
-    color: set-text-color($primary-color);
+    padding: 1 rem;
+    color: #fff;
 }

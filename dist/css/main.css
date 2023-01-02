@@ -13,23 +13,23 @@
   background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.jpg") center top;
   background-size: cover;
 }
-.home_name {
+.home__name {
   font-size: 5rem;
   padding-bottom: 1rem;
   margin-top: 1rem;
   border-bottom: 2px solid #fff;
 }
-.home_name--last {
+.home__name--last {
   color: #ff652f;
-  font-size: 700;
+  font-weight: 700;
 }
 
 body {
   background: #272727;
   color: #fff;
   height: 100vh;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1, h2, h3 {
@@ -57,11 +57,10 @@ main .social-icons {
   bottom: 1rem;
   left: 1rem;
 }
-main a {
+main .social-icons a {
   padding: 0.4rem;
-  transition: all 0.5s ease-in-out;
 }
-main a:hover {
+main .social-icons a:hover {
   color: #ff652f;
 }
 
@@ -71,6 +70,6 @@ footer {
   bottom: 0.4rem;
   right: 1rem;
   text-align: right;
-  padding: 1rem;
+  padding: 1 rem;
   color: #fff;
 }/*# sourceMappingURL=main.css.map */
